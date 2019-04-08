@@ -1,0 +1,136 @@
+section {
+  padding: 25px 25px;
+  background: #fff;
+}
+
+.parallax-container {
+  height: auto;
+  width: 100%;
+  background-size: auto 100%;
+}
+
+pre {
+  overflow: auto;
+}
+
+pre code {
+  word-wrap: normal;
+  white-space: pre;
+}
+
+footer {
+  background: #000;
+  color: #ddd;
+  padding: 30px 0 30px;
+  text-align: center;
+}
+
+footer a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #eee;
+  text-decoration: underline;
+}
+
+#myimg {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  background-image: url(../img/1001-stories-logo-flat.png);
+  background-size: 100%;
+}
+
+.parallaxParent {
+  height: 100vh;
+  overflow: hidden;
+}
+.parallaxParent > * {
+  height: 200%;
+  position: relative;
+  top: -100%;
+}
+
+#intro {
+  display: flex;
+}
+
+#intro p {
+  flex: 75%;
+  width: 100%;
+}
+
+#intro img{
+  flex: 25%;
+  width: 35%;
+  height: 35%;
+  margin-left: 10px;
+}
+
+#parallax1 {
+  background-color: #D4EBFF;
+}
+
+.content {
+  padding: 10px;
+  background-color: #fdf5e6;
+}
+
+.content p {
+  font-size: 16px;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  line-height: 25px;
+}
+
+#team img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#team img:hover {
+  border: 3px solid black;
+}
+
+#team td {
+  padding: 12px;
+}
+
+#team-feature td {
+  padding: 12px;
+}
+
+#team-feature img {
+ /* width: 25%;*/
+}
+
+#page-title {
+  text-align: center;
+}
+
+#bio {
+  font-size: 20px;
+
+}
+
+footer p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+}
